@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.vit.testcases.TestReLogin">
+        <methods>
+          <include name="test_Home_Page_Appear_Correct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vit.testcases.TestReLogin -->
+      <class name="com.vit.testcases.TestLogin">
+        <methods>
+          <include name="test_Home_Page_Appear_Correct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vit.testcases.TestLogin -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

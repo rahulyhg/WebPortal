@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <test name="test_with_firefox(failed)">
+    <classes>
+      <class name="com.vit.testcases.TestAddMeeting">
+        <methods>
+          <include name="testAddMeeting"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.vit.testcases.TestAddMeeting -->
+    </classes>
+  </test> <!-- test_with_firefox(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

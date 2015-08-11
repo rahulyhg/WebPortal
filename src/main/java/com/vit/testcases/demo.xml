@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Test Suite" annotations="javadoc">
+  <test name="test_with_firefox" junit="false">
+    <classes>
+      <class name="com.vit.testcases.NewTest"/>
+      <class name="com.vit.testcases.TestAddMeeting"/>
+    </classes>
+  </test>
+</suite>
